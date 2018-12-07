@@ -7,10 +7,11 @@
 ### 安装路由
     cnpm install vue-loader -S
 ### 创建路由相关的组件
-    * 主页组件 ./components/router/Home.vue
-    * 新闻组件 ./components/router/News.vue
+    主页组件 ./src/components/router/Home.vue
+    新闻组件 ./src/components/router/News.vue
 ### 创建路由配置文件
-    * 方便扩展与维护
-    * 以后路由要添加/删除/修改等直接操作这个配置文件
+    配置文件 ./src/router-config.js
+    方便扩展与维护
+    以后路由要添加/删除/修改等直接操作这个配置文件
 ### 入口文件 ./src/main.js 在 vue 实例中注册路由
 ### 根组件 ./src/App.vue 使用路由并监听路由变化
